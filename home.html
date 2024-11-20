@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="main.css" /> 
+    <title>Percentage Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1>Percentage Calculator</h1>
+            <p>Please provide the two values below and click the "Calculate" button to get the answer.
+                Fill the num1 and num2 respectively with the given options.</p>
+            <div class="input-grp">
+                <label for="operation">Select Operation:</label>
+                <select id="operation">
+                    <option value="Percentage">Basic Percentage </option>
+                    <option value="what is ____ % of ____">what is ____ % of ____</option>
+                    <option value="____ is what % of ____">____ is what % of ____</option>
+                    <option value="____ is _____ % of what">____ is _____ % of what</option>
+                </select>
+            </div>
+            <div class="input-grp">
+                <label for="num1">Num1 :</label>
+                <input type="number" name="num1" placeholder="Num1">
+            </div>
+
+            <div class="input-grp">
+                <label for="num2">Num2:</label>
+                <input type="number" name="num2" placeholder="Num2 or Percent">
+            </div>
+
+            <button onclick="calculate()">Calculate</button>
+            <div class="result"></div>
+        </div>
+        <div class="content">
+            <h2>Simplify Your Calculations with Me!</h2>
+            <div class="pic">
+                <img src="C:\Users\VIJAY\Downloads\vvlogo.png" height="70" width="90" >
+            </div>
+            <br><h3>About</h3>
+            <p>Our website is designed user-friendly to access and to calculate the accurate results 
+                for percentage calculations ,whether for finding the ups and downs in a business ,calculating 
+                for tips and discounts .
+            </p>
+            <h3>Percentage</h3>
+            <p>A percentage represents a fraction of 100 and is commonly used to express 
+                proportions, ratios, and comparisons. 
+            </p>
+        </div>
+    </div>
+<script src="src.js"></script>
+</body>
+</html>
